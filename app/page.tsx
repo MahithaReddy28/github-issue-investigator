@@ -1,6 +1,6 @@
-import Link from "next/link";
 'use client';
 
+import Link from "next/link";
 import { useRef, useState, type FormEvent } from 'react';
 import type { Report } from '../lib/investigate';
 import { parseIssueUrl } from '../lib/validation';
