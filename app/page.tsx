@@ -61,7 +61,10 @@ export default function Home() {
     <div className="shell">
       <a className="skip" href="#main">Skip to content</a>
       <header className="topbar">
-        <a className="brand" href="/" aria-label="Issue Investigator home"><span className="brand-icon" aria-hidden="true">⌕</span><span>issue<span className="brand-light">investigator</span></span></a>
+       <Link className="brand" href="/" aria-label="Issue Investigator home">
+  <span className="brand-icon" aria-hidden="true">⌕</span>
+  <span>issue<span className="brand-light">investigator</span></span>
+</Link>
         <div className="topbar-right"><span className="pill"><span className="dot" /> Public repositories</span><ExternalLink href="https://github.com/MahithaReddy28/github-issue-investigator">Source</ExternalLink></div>
       </header>
       <main id="main">
